@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #000000;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{ /* Style for the text and color */
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.search{ /* Style for the search bar */
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.serch{ /* Style for the search bar */
+    font-family: 'sans-serif';
+    width: 200px;
+    height: 40px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    margin-top: 13px;
+    color: #000;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.button{ /* Style for the search button */
+    width: 100px;
+    height: 40px;
+    background: #000000;
+    border: 2px solid #000000;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.serch:focus{
+    outline: none;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(F,F,F,F.8)50%,rgba(F,F,F,F.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form h3{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form h4{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form h5{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: left;
+    color: #000000;
+    font-size: 13px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #979797;
+    font-family: sans-serif;
+}
+
+.buttonn{
+    width: 240px;
+    height: 40px;
+    background: #000000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+.buttonn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
