@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- This sections is for the navbar-->
+    <header>
+        <img class="logo" src="images/logo_font.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Shop All</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <!--  This sections is for the search bar-->
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Submit</button>
+            </form>
+        </div>
+        <a class="cta" href="indexLogin.html"><button>Sign Up</button></a>
+        <a class="cta" href="indexLogin.html"><button>Login</button></a>
+    </header>
+
+    <!--  This is where the hero image is-->
+    <img class="hero_image" src="images/hero_image.png" alt="hero_image"> 
+    
+    <!--  This section is for the hero image, could be improved, but I dont know how much work we were supposed to put-->
+    <div class="todays-deals">
+        <h2 style="text-align:center">Today's Deals</h2> 
+        <div class="row">
+            <div class="column">
+                <a href="productp.html">
+                <img class="todays-deals-pictures" src="images/moncler_trainers.jpeg" alt="moncler_trainers" style="width:100%">
+                </a>
+            </div>
+            <div class="column">
+              <img class="todays-deals-pictures" src="images/black_nike_boots.jpeg" alt="black_nike_boots" style="width:100%">
+            </div>
+            <div class="column">
+              <img class="todays-deals-pictures" src="images/green_tracksuit.jpeg" alt="green_tracksuit style="width:100%">
+            </div>
+            <div class="column">
+                <img class="todays-deals-pictures" src="images/navy_tracksuit.jpeg" alt="black_nike_boots" style="width:100%">
+            </div>
+            <div class="column">
+                <img class="todays-deals-pictures" src="images/washed_jeans.jpeg" alt="green_tracksuit style="width:100%">
+            </div>
+          </div>
+          <button class="cta" href="#"Shop All>Shop All</button>
+    </div>
+
+    <!-- This is the section that'll have the main part of the page -->
+    <div class="main-content">
+
+    </div>
+
+    <!--  This section is for the footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row"> <!-- This section is for each columm, in the footer-->
+                <div class="footer-col">
+                    <form action="/action_page.php">
+                        <div class="container">
+                          <h4>Subscribe to our Newsletter</h3>
+                          <p>Be the first to know about our special offers, new producrts and events </p>
+                        </div>
+                      
+                        <div class="container" style="background-color:white">
+                          <input type="text" placeholder="Name" name="name" required>
+                          <input type="text" placeholder="Email address" name="mail" required>
+                          <label>
+                            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                          </label>
+                        </div>
+                      
+                        <div class="container">
+                          <input type="submit" value="Subscribe">
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Home & Furniture</a></li>
+                        <li><a href="#">Garden & DIY</a></li>
+                        <li><a href="#">Appliances</a></li>
+                        <li><a href="#">Toys</a></li>
+                        <li><a href="#">Sports & Leisure</a></li>
+                        <li><a href="#">Health & Beauty</a></li>
+                        <li><a href="#">Jewellery & Watches</a></li>
+                        <li><a href="#">Gifts & Parties</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Returns & Warranty</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+      
+</body>
+</html>
